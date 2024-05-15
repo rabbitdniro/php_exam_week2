@@ -88,9 +88,9 @@ $member2->borrowBook($book2);
 
 
 // TODO: Print Available Copies with their names:
-print("Available Copies of '{$book1->getTitle()}': {$book1->getAvailableCopies()}");
-print("\n");
-print("Available Copies of '{$book2->getTitle()}': {$book2->getAvailableCopies()}");
+print("Available Copies of '{$book1->getTitle()}': {$book1->getAvailableCopies()}\n");
+
+print("Available Copies of '{$book2->getTitle()}': {$book2->getAvailableCopies()}\n");
 
 
 
@@ -98,4 +98,3 @@ print("Available Copies of '{$book2->getTitle()}': {$book2->getAvailableCopies()
 // Available Copies of 'The Great Gatsby': 4
 // Available Copies of 'To Kill a Mockingbird': 2
 
-?>
