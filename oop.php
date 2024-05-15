@@ -50,12 +50,12 @@ public function getName() {
  
 // TODO: Add borrowBook method
 public function borrowBook($book) {
-    $book->borrowBook();
+    return $book->borrowBook();
 }
 
 // TODO: Add returnBook method
 public function returnBook($book) {
-    $book->returnBook();
+    return $book->returnBook();
 }
  
 }
