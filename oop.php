@@ -34,7 +34,6 @@ public function returnBook() {
  
 }
 
-
 class Member {
 // TODO: Add properties as Private
 private $name;
@@ -61,13 +60,8 @@ public function returnBook($book) {
  
 }
 
-
-
 // Usage
-
-
 // You have to create  2 books and 2 members. Members One should borrow  book 1 and Member Two should borrow  book 2.
-
 
 // TODO: Create 2 books with the following properties
 // Book 1 - Name: The Great Gatsby, Available Copies: 5.
@@ -81,20 +75,16 @@ $book2 = new Book("To Kill a Mockingbird", 3);
 $member1 = new Member("John Doe");
 $member2 = new Member("Jane Smith");
 
-
 // TODO: Apply Borrow book method to each member
 $member1->borrowBook($book1);
 $member2->borrowBook($book2);
 
-
 // TODO: Print Available Copies with their names:
 print("Available Copies of '{$book1->getTitle()}': {$book1->getAvailableCopies()}\n");
-
 print("Available Copies of '{$book2->getTitle()}': {$book2->getAvailableCopies()}\n");
-
-
 
 // Output must look like this:
 // Available Copies of 'The Great Gatsby': 4
 // Available Copies of 'To Kill a Mockingbird': 2
 
+?>
